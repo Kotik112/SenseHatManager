@@ -19,8 +19,8 @@ The script allows to control 14 lights by default
 The script uses the rgb_to_xy function to convert RGB colors to the xy colorspace used by the Philips Hue Bridge.
 
 ## Dependencies
-Bridge
-sense_hat
+- Bridge
+- sense_hat
 
 ## Additional notes
 The Bridge class is a subclass of the phue library's Bridge class and extends its functionality to include additional methods for controlling the lights.
