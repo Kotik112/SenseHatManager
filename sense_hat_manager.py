@@ -56,7 +56,6 @@ class SenseHatManager:
 
     def increase_brightness(self):
         brightness = self.bridge.get_brightness(self.current_light)
-        # print(brightness)
         if brightness < 256 - INCREMENTS:
             self.bridge.set_brightness(self.current_light, brightness + INCREMENTS)
 
